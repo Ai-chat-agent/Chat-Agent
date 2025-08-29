@@ -1,0 +1,25 @@
+# Chat Agent Configuration
+server:
+  port: "8080"
+  host: "0.0.0.0"
+  read_timeout: 10
+  write_timeout: 10
+  idle_timeout: 60
+
+database:
+  host: "localhost"
+  port: "5432"
+  user: "chat_agent"
+  password: "secure_password_123"
+  dbname: "chat_agent_db"
+  sslmode: "disable"
+
+log:
+  level: "info"
+  format: "json"
+
+app:
+  name: "Chat Agent"
+  version: "1.0.0"
+  environment: "development"
+
